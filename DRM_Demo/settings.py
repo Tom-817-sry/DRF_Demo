@@ -140,5 +140,5 @@ REST_FRAMEWORK = {
     "ALLOWED_VERSIONS": "v1, v2",
     "VERSION_PARAM": "ver",
     "DEFAULT_VERSION":"v1",
-    "DEFAULT_AUTHENTICATION_CLASSES":["utils.auth.MyAuth",],
+    # "DEFAULT_AUTHENTICATION_CLASSES":["utils.auth.MyAuth",],
 }

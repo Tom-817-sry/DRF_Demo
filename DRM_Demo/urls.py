@@ -21,5 +21,7 @@ urlpatterns = [
     path('books/', include("app01.urls")),
     path('version/', include("versionDemo.urls")),
     path('auth/', include("authDemo.urls")),
+    path('page/', include("pageDemo.urls")),
+    path('parse/', include("parseDemo.urls")),
 
 ]
